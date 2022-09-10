@@ -1,0 +1,65 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 10 0 10 0;
+  height: 100%;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+h1 {
+  font-size: 4em;
+  color: green;
+  font-family: verdana;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  color: #5C7;
+}
+
+p {
+ font-size: 16px; 
+ font-style: italic;
+  text-align: justify;
+}
+
+nav li {
+  display: inline;
+  font-size: 2em;
+  margin-right: 5em;
+  
+}
+nav {
+  background-color: rgb(255 255 0);
+  padding: 2px;
+  <--position: fixed;-->
+  }
+
+main {
+  position: relative;
+  top: 2em;
+}
+
+img {
+  width: 80%;
+}
+@media (max-width: 350px) {
+  img {
+    size: 300px;
+  }
+}
+
+#description {
+  text-align: center;
+}
