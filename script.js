@@ -66,3 +66,12 @@ test("There are at least 500 words on the page", () => {
 
 const console = document.getElementById("tests");
 prettify.toHTML(run(), console);
+
+var counter;
+
+document.getElementById('high-five-button').addEventListener('click', (event) => {
+  counter = (typeof counter === 'number' ? counter : 0) + 1;
+  let element_click_counter = document.getElementById('click-counter');
+  element_click_counter.innerText = counter;
+
+});
