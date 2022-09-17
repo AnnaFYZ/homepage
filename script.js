@@ -1,19 +1,4 @@
-/* =================
-  TESTS, LOOK AT THESE
-  Reading tests will always help you discover your requirements.
-  You can make this window bigger. 
-   ===================
-*/
 
-const {
-  core: { test, expect, run },
-  prettify
-} = window.jestLite;
-
-/* =================
-  FIND ELEMENTS
-  These are all the elements we will look for.
-   ===================
 */
 const getHeader = document.querySelectorAll("header"),
   getH1 = document.querySelectorAll("h1"),
@@ -69,7 +54,7 @@ prettify.toHTML(run(), console);
 
 var counter;
 
-
+counter = 0;
 
 document.getElementById('high-five-button').addEventListener('click', (event) => {
   counter = (typeof counter === 'number' ? counter : 0) + 1;
