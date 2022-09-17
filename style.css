@@ -1,20 +1,8 @@
-/* =================
-  WRITE YOUR CSS HERE.
-  Check the ⌄ for help with formatting and validating your code.
-  You must write some CSS to complete this challenge.
-   ===================
-*/
 html,
 body {
-  margin: 10 0 10 0;
   height: 100%;
+  text-align: center;
 }
-
-/* don't edit this */
-.jest-lite-report__status--pass {
-  background: var(--color-pass);
-}
-.jest-lite-report__errors { display:none }
 
 h1 {
   font-size: 4em;
@@ -31,8 +19,8 @@ h2 {
 p {
  font-size: 16px; 
  font-style: italic;
-  text-align: justify;
-}
+ text-align: justify;
+ }
 
 nav li {
   display: inline;
@@ -49,7 +37,8 @@ nav {
 main {
   position: relative;
   top: 2em;
-}
+  margin-bottom: 10px;
+  }
 
 img {
   width: 80%;
