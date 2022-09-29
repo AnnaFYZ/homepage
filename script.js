@@ -31,14 +31,11 @@ function back() {
 }
 
 
-images = ['https://media.giphy.com/media/00xGP4zv8xENZ2tc3Y/giphy.gif', 
-'https://media.giphy.com/media/KHF9fbygB3SRoWt3iC/giphy.gif', 
-'https://media.giphy.com/media/ialSDndyZsksMRJWsb/giphy.gif', 
-'images/pic1.jpg', 
-'images/pic2.jpg', 
-'images/pic3.jpg', 
-'images/pic4.jpg', 
-'images/kapci.jpg'];
+images = ['pic1.jpg', 
+'pic2.jpg', 
+'pic3.jpg', 
+'pic4.jpg', 
+'kapci.jpg'];
 
 
 document.getElementById('next').addEventListener('click', (event) => {
