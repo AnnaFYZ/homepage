@@ -73,6 +73,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #482ff7;
+}
+
 #container {
   border-bottom: 2px solid green;
 }
